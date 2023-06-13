@@ -114,7 +114,7 @@ $$
 
 ## 数码管
 
-略。。。
+暂略。。。
 
 ## RS触发器
 
@@ -127,3 +127,43 @@ $$
 | 0    | 1    | 1    | 0    |
 | 1    | 1    | 0    | 0    |
 
+## D触发器
+
+暂略。。。
+
+## D边缘触发器
+
+暂略。。。
+
+## T触发器
+
+暂略。。。
+
+## 3-8译码器
+
+…
+$$
+\begin{equation}
+\begin{aligned}
+Y_0 &= \overline{A} \cdot \overline{B} \cdot \overline{C} \\
+Y_1 &= \overline{A} \cdot \overline{B} \cdot C \\
+Y_2 &= \overline{A} \cdot B \cdot \overline{C} \\
+Y_3 &= \overline{A} \cdot B \cdot C \\
+Y_4 &= A \cdot \overline{B} \cdot \overline{C} \\
+Y_5 &= A \cdot \overline{B} \cdot C \\
+Y_6 &= A \cdot B \cdot \overline{C} \\
+Y_7 &= A \cdot B \cdot C \\
+\end{aligned}
+\end{equation}
+$$
+![decoder3to8](./image/decoder3to8.png)
+
+## 存储器
+
+暂略。。。
+
+## 存储器扩展
+
+### 字扩展
+
+### 位扩展
