@@ -145,14 +145,14 @@ $$
 $$
 \begin{equation}
 \begin{aligned}
-Y_0 &= \overline{A} \cdot \overline{B} \cdot \overline{C} \\
-Y_1 &= \overline{A} \cdot \overline{B} \cdot C \\
-Y_2 &= \overline{A} \cdot B \cdot \overline{C} \\
-Y_3 &= \overline{A} \cdot B \cdot C \\
-Y_4 &= A \cdot \overline{B} \cdot \overline{C} \\
-Y_5 &= A \cdot \overline{B} \cdot C \\
-Y_6 &= A \cdot B \cdot \overline{C} \\
-Y_7 &= A \cdot B \cdot C \\
+Y_0 &= \overline{A} \cdot \overline{B} \cdot \overline{C} \newline
+Y_1 &= \overline{A} \cdot \overline{B} \cdot C \newline
+Y_2 &= \overline{A} \cdot B \cdot \overline{C} \newline
+Y_3 &= \overline{A} \cdot B \cdot C \newline
+Y_4 &= A \cdot \overline{B} \cdot \overline{C} \newline
+Y_5 &= A \cdot \overline{B} \cdot C \newline
+Y_6 &= A \cdot B \cdot \overline{C} \newline
+Y_7 &= A \cdot B \cdot C \newline
 \end{aligned}
 \end{equation}
 $$
