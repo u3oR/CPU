@@ -3,8 +3,9 @@
 	<lc:Project>
 		<lc:ProjectId>861fb54b-4da3-41e0-bccb-52630142e921</lc:ProjectId>
 		<lc:Name>CPU</lc:Name>
+		<lc:Zoom>1.1</lc:Zoom>
 		<lc:Frequency>8</lc:Frequency>
-		<lc:LogicalCircuitId>6ef5aaad-c67c-4377-a188-79baa065b4a1</lc:LogicalCircuitId>
+		<lc:LogicalCircuitId>6cc39e66-a4e5-441f-9a59-05d64a77645b</lc:LogicalCircuitId>
 		<lc:StartupCircuitId>6ef5aaad-c67c-4377-a188-79baa065b4a1</lc:StartupCircuitId>
 	</lc:Project>
 	<lc:LogicalCircuit>
