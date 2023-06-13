@@ -142,16 +142,9 @@ $$
 ## 3-8译码器
 
 …
-$$
-Y_0 &= \overline{A} \cdot \overline{B} \cdot \overline{C} \newline
-Y_1 &= \overline{A} \cdot \overline{B} \cdot C \newline
-Y_2 &= \overline{A} \cdot B \cdot \overline{C} \newline
-Y_3 &= \overline{A} \cdot B \cdot C \newline
-Y_4 &= A \cdot \overline{B} \cdot \overline{C} \newline
-Y_5 &= A \cdot \overline{B} \cdot C \newline
-Y_6 &= A \cdot B \cdot \overline{C} \newline
-Y_7 &= A \cdot B \cdot C \newline
-$$
+
+![decoder3to8_expression](./image/decoder3to8_expression.png)
+
 …
 
 ![decoder3to8](./image/decoder3to8.png)
