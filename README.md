@@ -215,8 +215,14 @@ if __name__ == '__main__':
 
 ### 字扩展
 
-暂略。。。
+#### 高位
+
+![Register16x8Byte_H](./image/Register16x8Byte_H.png)
+
+#### 低位
+
+![Register16x8Byte_L](./image/Register16x8Byte_L.png)
 
 ### 位扩展
 
-暂略。。。
+![Register8x16Byte](./image/Register8x16Byte.png)
