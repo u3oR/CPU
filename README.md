@@ -1,8 +1,10 @@
-🎉🎉🎉[**一个8位二进制CPU的设计和实现**](https://www.bilibili.com/video/BV1aP4y1s7Vf/) 
+Reference🎉:[**一个8位二进制CPU的设计和实现**](https://www.bilibili.com/video/BV1aP4y1s7Vf/) 
 
-[**Logic Circuit**](https://logiccircuit.org/) 
+Tools:[**Logic Circuit**](https://logiccircuit.org/) 
 
-…
+<p align = "center">
+	<img alt="CPU" src="./image/CPU.png" height="300px" width="300px">
+</p>
 
 # CPU
 
