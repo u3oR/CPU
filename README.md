@@ -67,9 +67,13 @@ $$
 ![fulladder_using_rom](./image/fulladder_using_rom.png)
 
 利用上面的逻辑表出式可以得出下面的查找表：
+
+
 $$
 地址:C_{in}*4 + A * 2 * B ,数据： S * 2 + C_{out}
 $$
+
+
 ![fulladder_using_rom_data](./image/fulladder_using_rom_data.png)
 
 
@@ -116,7 +120,51 @@ $$
 
 ## 数码管
 
-暂略。。。
+### HEX数码管
+
+circuit
+
+![seg_hex_circuit](./image/seg_hex_circuit.png)
+
+rom
+
+![seg_hex_rom](./image/seg_hex_rom.png)
+
+…
+
+### 单字节数码管
+
+![seg_byte_circuit](./image/seg_byte_circuit.png)
+
+### 单字节十进制数码管
+
+…
+
+![seg_byte2dec_circuit](./image/seg_byte2dec_circuit.png)
+
+… 
+
+![seg_byte2dec_rom](./image/seg_byte2dec_rom.png)
+
+…
+
+```python
+import os
+
+if __name__ == '__main__':
+
+    dirname = os.path.dirname(os.path.abspath(__file__))
+
+    with open(os.path.join(dirname, 'hex2dec_rom.bin'), 'wb') as f:
+        for i in range(256):
+            var = int(str(i), base=16)
+            byte = var.to_bytes(length=2, byteorder='little');
+            f.write(byte)
+    f.close()
+    print('completed!')
+```
+
+…
 
 ## RS触发器
 
@@ -155,8 +203,20 @@ $$
 
 暂略。。。
 
+![Register_8x1](./image/Register_8x1.png)
+
+测试电路
+
+![Register_8x1_test](./image/Register_8x1_test.png)
+
+… 
+
 ## 存储器扩展
 
 ### 字扩展
 
+暂略。。。
+
 ### 位扩展
+
+暂略。。。
